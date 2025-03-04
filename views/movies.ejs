@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/movies.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>Movies - Movie Website</title>
+</head>
+<body>
+    <%- include('partials/header') %>
+    <main>
+        <h1>Movies List</h1>
+        <div id="movie-list">
+            <% movies.forEach(movie => { %>
+                <div class="movie">
+                    <h3><a href="/movies/<%= movie.id %>"><%= movie.title %></a></h3>
+                    <p>Year: <%= movie.year %></p>
+                </div>
+            <% }); %>
+        </div>
+    </main>
+    <%- include('partials/footer') %> 
+</body>
+</html>       

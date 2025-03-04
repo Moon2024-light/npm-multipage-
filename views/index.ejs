@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/style/movies.css">
+        <!-- Font Awesome CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <title>Home - Movie Website</title>
+    </head>
+<body>
+    <%- include('partials/header') %>
+    <main>
+        <h1>Welcome to the Movie Website</h1>
+        <p>Explore movies and directors, find recommendations, and discover new genres!</p>
+        <img src="/images/banner.jpg" alt="Movie Banner" class="homepage-image">
+        
+        <!-- CTA Button linking to Movies Page -->
+        <a href="/movies" class="cta-button">Explore Movies</a>
+
+        <!-- Additional Text Content -->
+        <section class="homepage-introduction">
+            <h2>What We Offer</h2>
+            <p>Our movie website brings you the latest and greatest films from various genres. Whether you’re into action, comedy, or drama, we have something for everyone. Our curated lists of directors and movies will help you discover hidden gems, new releases, and timeless classics.</p>
+            <p>Take a look at our top recommendations and get lost in a world of cinema. Looking for a specific genre or director? We've got you covered with easy-to-navigate pages and categories.</p>
+        </section>
+
+        <!-- Section with Highlights (Optional) -->              
+        <section class="homepage-highlights">
+            <h2>Movie Highlights</h2>
+            <ul>
+                <li><strong>Top Action Movies</strong> - Thrilling adventures and high-octane excitement.</li>
+                <li><strong>Comedy Classics</strong> - Laughter guaranteed with the funniest films.</li>
+                <li><strong>Director Spotlights</strong> - Discover the masterminds behind your favorite movies.</li>
+            </ul>
+        </section>
+    </main>
+
+    <%- include('partials/footer') %> 
+</body>
+</html>
