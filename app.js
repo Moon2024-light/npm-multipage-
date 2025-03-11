@@ -35,7 +35,6 @@ app.get('/movies/:id', (req, res) => {
 });
 
 const fetch = require('node-fetch'); 
-
 app.get('/proxy-image', async (req, res) => {
     const imageUrl = req.query.url;
     try {
