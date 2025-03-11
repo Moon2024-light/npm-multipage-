@@ -1,12 +1,19 @@
-const express = require('express');
-const router = express.Router();
-const moviesData = require('../data/movies.json');
+import express from 'express';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const router = express.Router();
+
+// Read JSON file synchronously
+const moviesData = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/movies.json'), 'utf-8'));
 
 router.get('/', (req, res) => {
     res.render('movies', { movies: moviesData });
 });
-
 
 router.get('/:id', (req, res) => {
     const movie = moviesData.find(m => m.id == req.params.id);
@@ -18,7 +25,7 @@ router.get('/:id', (req, res) => {
 });
 
 router.get('/info', (req, res) => {
-    res.render('movies_detail', { movies: moviesData });  
+    res.render('movies_detail', { movies: moviesData });
 });
 
-module.exports = router;
+export default router;
