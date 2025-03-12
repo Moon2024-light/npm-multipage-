@@ -11,14 +11,10 @@
     <%- include('partials/header') %>
     <main>
         <h1><%= movie.title %> (Year: <%= movie.year %>)</h1>
-<p>Image URL: <%= movie.image %></p> 
-<img src="<%= movie.image %>" alt="<%= movie.title %> poster">
+        <img src="<%= movie.image %>" alt="<%= movie.title %> poster">
         <p><%= movie.description %></p>
-        <a href="/movies">Back to Movie
-
+        <a href="/movies">Back to Movies</a>
     </main>
     <%- include('partials/footer') %>
-
 </body>
-</html> 
- 
+</html>
