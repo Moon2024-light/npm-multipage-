@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include('../partials/head', { title: title }) %> 
+</head>
+<body>
+    <%- include('../partials/header') %>
+
+    <main>
+        <h1>Directors</h1>
+        <div id="director-list">
+            <% directors.forEach(director => { %> 
+                <div class="director">
+                    <a href="/directors/<%= director.id %>">
+                        <img src="<%= director.image %>" alt="<%= director.name %>">
+                        <p><%= director.name %></p>
+                    </a>
+                </div>
+            <% }) %>
+        </div>
+    </main>
+
+    <%- include('../partials/footer') %>
+</body>
+</html>

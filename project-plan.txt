@@ -1,0 +1,16 @@
+Movie Website - Project Plan
+Home Page
+Welcome Message: Brief introduction to the movie website.
+Movie Highlights: Featured movies from different genres.
+Navigation: Links to the Movies and Directors pages.
+Top-Level Pages
+Movies
+
+Sub-Pages:
+Movie List: Displays a list of all available movies.
+Movie Details: Shows individual movie details when selected.
+Directors
+
+Sub-Pages:
+Director List: Displays all directors.
+Director Details: Shows individual director information.

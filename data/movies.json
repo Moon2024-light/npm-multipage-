@@ -1,47 +1,51 @@
 [
- {
-        "id": 1,
-        "title": "The Godfather",
-        "year": 1972,
-        "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
-        "image": "https://upload.wikimedia.org/wikipedia/en/1/1c/Godfather_ver1.jpg"
-},
-{   
-    "id": 2,
-    "title": "The Shawshank Redemption",
-    "year": 1994,
-    "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg",
-    "url": "https://www.imdb.com/title/tt0111161/"
-  },
- 
-   
-{
-    "id": 3,
-    "title": "Interstellar",
-    "year": 2014,
-    "description": "A team of explorers travels through a wormhole in space in an attempt to ensure humanity's survival.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg"
-},
-{
-    "id": 4,
-    "title": "Inglourious Basterds",
-    "year": 2009,
-    "description": "In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/c/c3/Inglourious_Basterds_poster.jpg"
-},
-{
-    "id": 5,
-    "title": "The Matrix",
-    "year": 1999,
-    "description": "A hacker discovers the true nature of his reality and his role in the war against its controllers.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/c/c1/The_Matrix_Poster.jpg"
-},
-{
-    "id": 6,
-    "title": "Forrest Gump",
-    "year": 1994,
-    "description": "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal, and other historical events unfold through the perspective of an Alabama man with an IQ of 75.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg"
-}
-]
+    {
+      "id": 1,
+      "title": "The Godfather",
+      "year": 1972,
+      "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "detailed_description": "The Godfather, directed by Francis Ford Coppola, is a masterpiece of crime cinema. It follows the Corleone family as they navigate power struggles, betrayal, and family loyalty in the world of organized crime. Marlon Brando’s performance as Don Vito Corleone remains one of the greatest in film history.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1c/Godfather_ver1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "The Shawshank Redemption",
+      "year": 1994,
+      "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "detailed_description": "Based on Stephen King's novella, The Shawshank Redemption is a powerful story of hope, friendship, and perseverance. Andy Dufresne, falsely imprisoned for murder, forms a deep friendship with fellow inmate Red and embarks on an inspiring journey toward freedom.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Interstellar",
+      "year": 2014,
+      "description": "A team of explorers travels through a wormhole in space in an attempt to ensure humanity's survival.",
+      "detailed_description": "Interstellar, directed by Christopher Nolan, is a visually stunning sci-fi epic that explores themes of time, love, and sacrifice. As Earth faces environmental collapse, a group of astronauts embark on a journey to find a new habitable planet for humanity.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Inglourious Basterds",
+      "year": 2009,
+      "description": "In Nazi-occupied France, a plan to assassinate Nazi leaders coincides with a theatre owner's vengeful plot.",
+      "detailed_description": "Quentin Tarantino’s Inglourious Basterds is a revisionist war film that mixes dark comedy with brutal action. Featuring an unforgettable performance by Christoph Waltz as Hans Landa, the film reimagines history in a uniquely Tarantino way.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c3/Inglourious_Basterds_poster.jpg"
+    },
+    {
+      "id": 5,
+      "title": "The Matrix",
+      "year": 1999,
+      "description": "A hacker discovers the true nature of his reality and his role in the war against its controllers.",
+      "detailed_description": "The Matrix, directed by the Wachowskis, revolutionized the sci-fi genre with its groundbreaking visual effects and philosophical depth. The film follows Neo, a hacker who discovers the truth about reality and joins the fight against a powerful AI system.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c1/The_Matrix_Poster.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Forrest Gump",
+      "year": 1994,
+      "description": "An Alabama man with an IQ of 75 experiences key historical events in the 20th century.",
+      "detailed_description": "Forrest Gump, starring Tom Hanks, is an inspiring tale of love, destiny, and perseverance. Through his innocent and kind-hearted nature, Forrest unknowingly influences major historical events while staying true to his childhood love, Jenny.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg"
+    }
+  ]
+  

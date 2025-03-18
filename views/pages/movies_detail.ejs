@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include('../partials/head', { title: movie.title }) %> 
+</head>
+<body>
+    <%- include('../partials/header') %>
+
+    <main>
+        <h1><%= movie.title %> (<%= movie.year %>)</h1>
+        <p><%= movie.description %></p> 
+        
+        <h3>Introduction</h3>
+        <p><%= movie.detailed_description %></p> 
+
+        <a href="/movies">Back to Movies</a>
+    </main>
+
+    <%- include('../partials/footer') %>
+</body>
+</html>

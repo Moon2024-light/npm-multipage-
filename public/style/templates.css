@@ -1,0 +1,141 @@
+/* Homepage Styles */
+.homepage {
+  background: none; 
+  padding: 50px;
+  border-radius: 10px;
+  width: 80%;
+  margin: auto;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.homepage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); 
+}
+
+
+main {
+  flex-grow: 1;
+  text-align: center;
+  padding: 20px;
+}
+.homepage-highlights ul {
+  list-style-type: none;  
+  padding: 0;
+  margin: 0;
+}
+
+.homepage-highlights li {
+  white-space: normal; 
+  overflow: visible;   
+  text-overflow: unset;
+  margin-bottom: 10px;  
+}
+
+.homepage-highlights strong {
+  font-weight: bold;
+}
+
+
+/* Movie & Director Page Text Color */
+#movie-list, #director-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+  margin-top: 20px;  
+} 
+
+/* Fix Purple Links */
+a, a:visited {
+  color: white !important; 
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange !important; 
+}
+
+/* Movie & Director Cards */
+.movie, .director {
+  background: #222;
+  border-radius: 8px;
+  border: 1px solid #444;
+  padding: 15px;
+  width: 220px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.title {
+  color: white;
+}
+
+.movie:hover, .director:hover {
+  transform: scale(1.05);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  color: orange;
+}
+
+/* Director Details Page */
+.director-details {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  color: white;
+}
+
+.director-image {
+  display: flex;
+  justify-content: center;
+}
+
+.director-image img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Back to Directors Button */
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 18px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.back-link:hover {
+  background-color: white;
+  color: black;
+  transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .director-image img {
+    max-width: 90%;
+  }
+  .director-details {
+    padding: 10px;
+  }
+}

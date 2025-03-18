@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include('../partials/head', { title: director.name }) %> <!-- Dynamic Title -->
+</head>
+<body>
+    <%- include('../partials/header') %>
+
+    <main>
+        <h1><%= director.name %> (Age: <%= director.age %>)</h1>
+        <p><%= director.description %></p> 
+        
+        <h3>Biography</h3>
+        <p><%= director.bio %></p> 
+
+        <a href="/directors">Back to Directors</a>
+    </main>
+
+    <%- include('../partials/footer') %>
+</body>
+</html>

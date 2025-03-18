@@ -1,45 +1,50 @@
-[  
-    {
-      "id": 1,
-      "name": "Christopher Nolan",
-      "age": 50,
-      "description": "A British-American filmmaker known for his innovative storytelling and visually stunning films.",
-      "image": "images/christopher_nolan.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Steven Spielberg",
-      "age": 74,
-      "description": "An American film director, producer, and screenwriter, widely regarded as one of the most popular filmmakers in the world.",
-      "image": "images/Steven_Spielberg.jpg"
-    },
-    {
-      "id": 3,
-      "name": "Quentin Tarantino",
-      "age": 60,
-      "description": "An American filmmaker known for his nonlinear storylines, satirical dialogues, and stylistic action sequences.",
-      "image": "images/Quentin-Tarantino.jpg"
-    },
-    {
-      "id": 4,
-      "name": "Martin Scorsese",
-      "age": 81,
-      "description": "An American director, producer, screenwriter, and actor, known for his significant contributions to cinema.",
-      "image": "images/Martin_Scorsese.jpg"
-    },
-    {
-      "id": 5,
-      "name": "Alfred Hitchcock",
-      "age": 120,
-      "description": "An English film director and producer, known as the 'Master of Suspense'.",
-      "image": "images/Alfred_Hitchcock.jpg"
-    },
-    {
-      "id": 6,
-      "name": "Ridley Scott",
-      "age": 85,
-      "description": "An English film director and producer, known for his visually stunning and atmospheric films.",
-      "image": "images/Ridley_Scott.jpg"
-    }
-  ]
-  
+[
+  {
+    "id": 1,
+    "name": "Christopher Nolan",
+    "age": 50,
+    "description": "A British-American filmmaker known for his innovative storytelling and visually stunning films.",
+    "bio": "Christopher Nolan is a renowned director and screenwriter best known for films like Inception, The Dark Knight Trilogy, and Interstellar. His movies often explore complex narratives, time manipulation, and deep psychological themes.",
+    "image": "images/christopher_nolan.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Steven Spielberg",
+    "age": 74,
+    "description": "An American film director, producer, and screenwriter, widely regarded as one of the most popular filmmakers in the world.",
+    "bio": "Steven Spielberg has directed some of the most influential films in history, including Jaws, E.T., Jurassic Park, and Schindler’s List. His storytelling combines deep emotion with thrilling adventure, making him one of the greatest filmmakers of all time.",
+    "image": "images/Steven_Spielberg.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Quentin Tarantino",
+    "age": 60,
+    "description": "An American filmmaker known for his nonlinear storylines, satirical dialogues, and stylistic action sequences.",
+    "bio": "Quentin Tarantino is famous for his unique blend of dialogue-heavy storytelling and ultra-violent aesthetics. Films like Pulp Fiction, Kill Bill, and Django Unchained showcase his love for cinema and pop culture references.",
+    "image": "images/Quentin-Tarantino.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Martin Scorsese",
+    "age": 81,
+    "description": "An American director, producer, screenwriter, and actor, known for his significant contributions to cinema.",
+    "bio": "Martin Scorsese is a legendary director known for crime dramas like Goodfellas, The Irishman, and Taxi Driver. His films often explore themes of morality, power, and the human condition.",
+    "image": "images/Martin_Scorsese.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Alfred Hitchcock",
+    "age": 120,
+    "description": "An English film director and producer, known as the 'Master of Suspense'.",
+    "bio": "Alfred Hitchcock revolutionized the thriller and suspense genre with classics like Psycho, Vertigo, and Rear Window. His ability to build tension and manipulate audience emotions set a new standard in filmmaking.",
+    "image": "images/Alfred_Hitchcock.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Ridley Scott",
+    "age": 85,
+    "description": "An English film director and producer, known for his visually stunning and atmospheric films.",
+    "bio": "Ridley Scott is best known for directing groundbreaking sci-fi and historical films like Blade Runner, Alien, and Gladiator. His signature visual style and strong storytelling make his films unforgettable.",
+    "image": "images/Ridley_Scott.jpg"
+  }
+]
