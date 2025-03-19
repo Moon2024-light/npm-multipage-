@@ -19,10 +19,11 @@ router.get('/', (req, res) => {
     });
 });
 
-// Route for individual movie details
 router.get('/:id', (req, res) => {
     const movie = moviesData.find(m => m.id == req.params.id);
+    
     if (movie) {
+        console.log("Movie title:", movie.title); // Debugging log
         res.render('movies_detail', { movie, title: movie.title });
     } else {
         res.status(404).send('Movie not found');
@@ -30,3 +31,4 @@ router.get('/:id', (req, res) => {
 });
 
 export default router;
+

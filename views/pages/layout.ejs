@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <%- include('../partials/head', { title: title }) %> 
+    <link rel="stylesheet" href="/style/general.css"> 
+    <link rel="stylesheet" href="/style/templates.css"> 
+    <title><%= typeof title !== 'undefined' ? title : 'Default Title' %></title>
 </head>
 <body>
-    <%- include('../partials/header') %> 
+
+    <%- include('../partials/header') %>
 
     <main>
-        <%- include(body) %> 
+        <%- include(body) %>
     </main>
 
-    <%- include('../partials/footer') %> 
+    <%- include('../partials/footer') %>
+
 </body>
 </html>
-
