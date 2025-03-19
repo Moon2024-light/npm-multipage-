@@ -10,14 +10,7 @@ const __dirname = path.dirname(__filename);
 
 const app = express();
 dotenv.config();
-
 const PORT = process.env.PORT || 3000;
-app.get('/movie/:id', (req, res) => {
-    const movie = getMovieById(req.params.id); // Replace with your logic to fetch the movie
-    res.render('movie', { movie: movie, title: movie.title });
-});
-
-
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views/pages'));
 
