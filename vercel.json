@@ -14,7 +14,11 @@
   ],
   "functions": {
     "index.js": {
-      "includeFiles": "data/**"
+      "includeFiles": [
+        "views/**",
+        "public/**",
+        "data/**"
+      ]
     }
   }
 }

@@ -8,9 +8,9 @@ import directorsRouter from './routes/directorsRouter.js';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const app = express();
 dotenv.config();
-const PORT = process.env.PORT || 3000;
+const app = express();
+
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views/pages'));
 
@@ -26,9 +26,4 @@ app.get('/', (req, res) => {
     });
 });
 
-if (process.env.NODE_ENV !== "test") {
-    app.listen(PORT, () => {
-        console.log(`Server is running on http://localhost:${PORT}`);
-    });
-}
-
+export default app;
