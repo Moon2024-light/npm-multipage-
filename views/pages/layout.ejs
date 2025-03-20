@@ -6,17 +6,17 @@
     <link rel="stylesheet" href="/style/general.css"> 
     <link rel="stylesheet" href="/style/templates.css"> 
 
-    <%- include('../partials/head') %>  <!-- Fix the path -->
-
+    <%- include('../partials/head.ejs') %> 
+    
     <title><%= typeof title !== 'undefined' ? title : 'Default Title' %></title>
 </head>
 <body>
-    <%- include('../partials/header') %>  
+    <%- include('../partials/header.ejs') %>  
 
     <main>
-        <%- include(body) %>
+        <%- include(body + '.ejs') %> 
     </main>
 
-    <%- include('../partials/footer') %>  
+    <%- include('../partials/footer.ejs') %>  
 </body>
 </html>
