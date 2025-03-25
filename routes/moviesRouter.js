@@ -13,7 +13,7 @@ const moviesData = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/movi
 
 // Route for movies page
 router.get('/', (req, res) => {
-    res.render('movies', { 
+    res.render('pages/movies', { 
         movies: moviesData, 
         title: 'Movies'
     });
@@ -24,11 +24,13 @@ router.get('/:id', (req, res) => {
     
     if (movie) {
         console.log("Movie title:", movie.title); // Debugging log
-        res.render('movies_detail', { movie, title: movie.title });
+        res.render('pages/movies_detail', { movie, title: movie.title });
     } else {
         res.status(404).send('Movie not found');
     }
 });
 
 export default router;
+
+
 

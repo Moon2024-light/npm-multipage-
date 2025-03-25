@@ -13,7 +13,7 @@ const directorsData = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/d
 
 // Route for directors page
 router.get('/', (req, res) => {
-    res.render('directors', {
+    res.render('pages/directors', {
         directors: directorsData,
         title: 'Directors'
     });
@@ -23,7 +23,7 @@ router.get('/', (req, res) => {
 router.get('/:id', (req, res) => {
     const director = directorsData.find(d => d.id == req.params.id);
     if (director) {
-        res.render('directors-detail', { 
+        res.render('pages/directors-detail', { 
             director, 
             title: director.name 
         });
