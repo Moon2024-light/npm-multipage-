@@ -1,3 +1,11 @@
+/* CSS Reset 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Styles */
 body { 
   font-family: Arial, sans-serif;
   margin: 0;
@@ -19,6 +27,7 @@ header {
   color: white;
   padding: 15px 0;
   text-align: center;
+  width: 100%;
 }
 
 /* Navigation Bar */
@@ -45,7 +54,7 @@ nav ul li a {
   text-decoration: none;
   padding: 10px 15px;
   display: inline-block;
-  transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
 }
 
 nav ul li a:hover {
@@ -58,6 +67,8 @@ main {
   flex-grow: 1;
   text-align: center;
   padding: 20px;
+  max-width: 1200px;
+  margin: auto;
 }
 
 /* Footer Styling */
@@ -67,6 +78,7 @@ footer {
   background: #353535;
   color: white;
   margin-top: auto;
+  width: 100%;
 }
 
 footer a {
@@ -103,6 +115,8 @@ ul:empty {
 }
 
 /* Responsive Design */
+
+/* Ensure the home page scales correctly on small screens */
 @media (max-width: 768px) {
   nav ul {
     flex-direction: column;
@@ -112,15 +126,41 @@ ul:empty {
   nav ul li {
     margin: 10px 0;
   }
-}
 
-@media (max-width: 480px) {
-  .movie, .director {
-    width: 90%; 
+  /* Fix logo and navigation spacing */
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main {
+    padding: 15px;
   }
 }
 
+/* Extra small screens */
+@media (max-width: 480px) {
+  .movie, .director {
+    width: 100%; 
+    text-align: center;
+  }
 
+  main {
+    padding: 10px;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* Fix broken layout issue */
 .movie, .director {
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s;
 }
